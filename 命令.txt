@@ -1,0 +1,4 @@
+python manage.py makemigrations
+python manage.py migrate
+每当你修改了models.py文件，
+都需要用makemigrations和migrate这两条指令迁移数据。
